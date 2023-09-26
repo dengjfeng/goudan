@@ -1,23 +1,33 @@
 {
-	"pluginName": "狗蛋儿",
-	"description": "狗蛋儿，你的开发助理",
-	"author": "dengjianfeng,wangkai35",
-	"version": "0.0.1",
-	"logo": "logo.png",
-	"preload": "preload.js",
-	"homepage": "https://github.com/dengjianfeng",
-	"features": [
-		{
-			"code": "gd",
-			"explain": "狗蛋儿",
-			"cmds": [
-				"狗蛋儿",
-				"gd",
-				{
-					"type": "over",
-					"label": "狗蛋儿"
-				}
-			]
-		}
-	]
+    "pluginName": "狗蛋儿",
+    "description": "狗蛋儿，你的开发助理",
+    "author": "dengjianfeng,wangkai35",
+    "version": "0.0.1",
+    "logo": "logo.png",
+    "preload": "preload.js",
+    "homepage": "https://github.com/dengjianfeng",
+    "features":
+    [
+        {
+            "code": "gd",
+            "explain": "狗蛋儿",
+            "cmds":
+            [
+                "狗蛋儿",
+                "gd",
+                {
+                    "type": "over",
+                    "label": "狗蛋儿"
+                }
+            ]
+        },
+        {
+            "code": "hello",
+            "explain": "hello world",
+            "cmds":
+            [
+                "hello"
+            ]
+        }
+    ]
 }
